@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* navbar-1 start here  */
+
+.box-1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: green;
+    }
+
+.heading{
+    font-size: 2rem;
+    margin-right: auto;
+    margin-left: 2rem;
+}
+
+.e-mail{
+    margin-right: 30px;
+}
+
+.e-mail span{
+    font-size: 26px;
+    margin-left: 5px;
+}
+
+.phone{
+    margin-right: 10px;
+}
+
+.phone span{
+    font-size: 26px;
+    margin-left: 5px;
+}
+
+.contact{
+    display: flex;
+}
+
+/* navbar-1 end here  */
+
+/* navbar-2 start here  */
+
+.navbar-2{
+    border: 2px solid red;
+    display: block;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;  
+}
+
+.item img{
+    width: 90px;
+    height: 70px;
+}
+
+.navbar-2 ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+.navbar-2 li{
+    text-decoration: none;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    /* border: 2px solid white; */
+    /* margin: 20px 23px; */
+    padding: 43px 0px;
+}
+.navbar-2 li:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+
+/* navbar-2 end here  */
+
+
+@media only screen and (min-width : 320px)  and (max-width : 767px){
+    
+    .heading{
+        display: none;
+    }
+
+    .contact{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .e-mail{
+        margin-left: 20px;
+    }
+
+    .phone{
+        margin-left: 20px;
+    }
+
+    .phone span{
+        font-size: 20px;
+    }
+
+   }
+
+@media only screen and (min-width : 768px)  and (max-width : 1024px){
+    
+    .contact{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
