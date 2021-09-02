@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>JS-SEED CORNER</title>
 </head>
@@ -32,19 +34,58 @@
 
     </div>
 
-    <nav class="navbar-2">
+    <section class="navbar-section">
+        <nav>
+            <ul class="flex">
+                <li class="logo" href="#"> <img src="images/logo.png" alt=""></li>
+                <li class="items"><a href="#">HOME</a></li>
+                <li class="items"><a href="#">ABOUT US</a></li>
+                <li class="items"><a href="#">PRODUCTS</a></li>
+                <li class="items"><a href="#">R&D</a></li>
+                <li class="items"><a href="#">CONTRACT PRODUCTION</a></li>
+                <li class="items"><a href="#">DOWNLOAD BROCHURE</a></li>
+                <li class="items"><a href="#">CAREER</a></li>
+                <li class="items"><a href="#">CONTACT US</a></li>
+
+                <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+            </ul>
+        </nav>
+
+        <script>
+            $(document).ready(function () {
+                $('.btn').click(function () {
+                    $('.items').toggleClass("show");
+                    $('ul li').toggleClass("hide");
+                });
+            });
+        </script>
+
+    </section>
+
+    <!-- <nav class="navbar-2">
         <ul>
-            <li class="item"><a href="#"></a> <img src="images/logo.png" alt=""></li>
-            <li class="item"><a href="#"></a>HOME</li>
-            <li class="item"><a href="#"></a>ABOUT US</li>
-            <li class="item"><a href="#"></a>PRODUCTS</li>
-            <li class="item"><a href="#"></a>R&D</li>
-            <li class="item"><a href="#"></a>CONTRACT PRODUCTION</li>
-            <li class="item"><a href="#"></a>DOWNLOAD BROCHURE</li>
-            <li class="item"><a href="#"></a>CAREER</li>
-            <li class="item"><a href="#"></a>CONTACT US</li>
+            <li class="logo"><a href="#"></a> <img src="images/logo.png" alt=""></li>
+            <li class="items"><a href="#">HOME</a></li>
+            <li class="items"><a href="#">ABOUT US</a></li>
+            <li class="items"><a href="#">PRODUCTS</a></li>
+            <li class="items"><a href="#">R&D</a></li>
+            <li class="items"><a href="#">CONTRACT PRODUCTION</a></li>
+            <li class="items"><a href="#">DOWNLOAD BROCHURE</a></li>
+            <li class="items"><a href="#">CAREER</a></li>
+            <li class="items"><a href="#">CONTACT US</a></li>
+            <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
         </ul>
     </nav>
+
+    <script>
+        $(document).ready(function () {
+            $('.btn').click(function () {
+                $('.items').toggleClass("show");
+                $('ul li').toggleClass("hide");
+            });
+        });
+    </script> -->
+
 </body>
 
 </html>
