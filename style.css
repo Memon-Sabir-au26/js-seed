@@ -139,6 +139,65 @@ nav ul li.btn.hide i:before{
 
 /* navbar-2 end here  */
 
+/* home session start here  */
+
+.home{
+    height: 100vh;
+    width: 100%;
+    background:url('images/home1.jpg') no-repeat center center/cover;
+}
+
+/* home session end here  */
+
+/* welcome session start here */
+
+    .welcome{
+        background-color: #ddecd8;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .welcome h1{
+        font-family: 'Playball', cursive;
+        color: #008146;
+        padding-top: 45px;
+        font-weight: 500;
+    }
+
+    .welcome p{
+        color: #393939;
+        font-size: 15px;
+        line-height: 26px;
+        margin:  10px 380px;
+    }
+
+    .btn1{
+        font-family: 'Open Sans', sans-serif;
+        padding-top: 10px;
+        text-align: center;
+        width: 145px;
+        height: 33px;
+        border-radius: 10px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+        transition: all 0.5s ease;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+    }
+
+    .btn1:hover{
+        background-color: #008146;
+        cursor: pointer;
+    }
+
+/* welcome session end here */
+
+
 @media only screen and (min-width : 320px)  and (max-width : 767px){
     
 /* /* mobile :- */
@@ -224,6 +283,17 @@ nav ul li.items:hover:after{
 
 /* navbar-2 end here  */
 
+/* home session start here  */
+
+.home{
+    /* border: 2px solid red; */
+    height: 40vh;
+    width: 100vw;
+}
+
+/* home session end here  */
+
+
 }
 
 @media only screen and (min-width : 768px)  and (max-width : 1024px){
@@ -299,5 +369,14 @@ nav ul li.items:hover:after{
     
 
     /* navbar-2 end here */
+
+    /* home session start here  */
+
+.home{
+    height: 40vh;
+    width: 100%;
+}
+
+/* home session end here  */
 
 }
