@@ -293,6 +293,55 @@ nav ul li.items:hover:after{
 
 /* home session end here  */
 
+/* welcome session start here */
+
+.welcome{
+    background-color: #ddecd8;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome h1{
+    font-family: 'Playball', cursive;
+    color: #008146;
+    padding-top: 45px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.welcome p{
+    color: #393939;
+    font-size: 20px;
+    margin: 17px;
+    line-height: 25px;
+    text-align: center
+}
+
+.btn1{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+    text-align: center;
+    width: 145px;
+    height: 33px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.btn1:hover{
+    background-color: #008146;
+    cursor: pointer;
+}
+
+/* welcome session end here */
 
 }
 
@@ -310,6 +359,10 @@ nav ul li.items:hover:after{
     .phone span{
         margin-left: 5px;
         margin-right: 30px;
+    }
+
+    .phone i{
+        transform: rotateY(180deg);
     }
 
     /* navbar-1 end here  */
@@ -378,5 +431,56 @@ nav ul li.items:hover:after{
 }
 
 /* home session end here  */
+
+/* welcome session start here */
+
+.welcome{
+    background-color: #ddecd8;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome h1{
+    font-family: 'Playball', cursive;
+    color: #008146;
+    padding-top: 45px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.welcome p{
+    color: #393939;
+    font-size: 20px;
+    margin: 17px;
+    line-height: 25px;
+    text-align: center
+}
+
+.btn1{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+    text-align: center;
+    width: 145px;
+    height: 33px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.btn1:hover{
+    background-color: #008146;
+    cursor: pointer;
+}
+
+/* welcome session end here */
+
 
 }
