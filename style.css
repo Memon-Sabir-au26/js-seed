@@ -367,6 +367,111 @@ nav ul li.btn.hide i:before{
 
     /* product-gallery session  */
 
+    /* contract session  */
+
+   .contract{
+       display: flex;
+       flex-direction: row;
+       background-color: white;
+   }
+   
+    .contract-box{
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid red; */
+        padding-left: 100px;
+        width: 39vw;
+    }
+
+    .contract-box h1{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-size: 2.3rem;
+    }
+
+    .contract-box h1 span{
+        color: #008146;
+    }
+
+    .contract-box p{
+        font-size: 1.2rem;
+        margin-top: 20px;
+        margin-bottom: 40px
+        }
+
+    .contract-box p span{
+        color: #008146;
+    }
+
+    .special{
+        color: gray;
+        font-size: 1rem;
+        margin-bottom: 60px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .types{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .read{
+        margin: 5px 30px;
+        width: 100px;
+        height: 30px;
+        color: #008146;
+    }
+
+    .request{
+        background: #008146;
+        padding: 10px;
+        width: 573px;
+        background-size: cover;
+        margin: 20px 40px;
+    }
+
+    .request-box{
+        border: 1px dashed white;
+        padding-bottom: 45px;
+    }
+
+    .request-box h3{
+        font-size: 2.5rem;
+        color: white;
+        margin-top: 35px;
+        margin-bottom: 25px;
+        margin-left: 10px;
+    }
+
+    #fname{
+        height: 40px;
+        width: 250px;
+        margin: 10px;
+    }
+
+    #fmessage{
+        width: 39vw;
+        height: 35vh;
+        margin: 10px
+    }
+
+    .form-btn{
+        /* border: 2px solid black; */
+        width: 75px;
+        text-align: center;
+        height: 26px;
+        font-size: 20px;
+        border-radius: 2px;
+        background-color: white;
+        float: right;
+        margin-right: 25px;
+    }
+
+    /* contract session  */
+
 
 @media only screen and (min-width : 320px)  and (max-width : 767px){
     
@@ -644,6 +749,30 @@ nav ul li.items:hover:after{
 }
 
 /* product-gallery session  */
+
+ /* contract session  */
+
+ .contract{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+ .contract-box{
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: flex-start;
+     border: 2px solid red;
+     width: 20%
+    }
+
+    .contract-box h1{
+        font-size: 20px;
+    }
+
+ /* contract session  */
+
 
 
 }
